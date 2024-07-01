@@ -1,10 +1,14 @@
 {
   "name": "js_webcrawler",
   "version": "1.0.0",
-  "description": "JavaScript webcrawler for spidering through and outputting a report showing the structure of a websites linking",
+  "description": "JavaScript webcrawler for spidering through and outputting a report showing the structure of a websites linking. Useful for optimizing SEO.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "start": "node main.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "jest": {
+        "transform": {}
   },
   "repository": {
     "type": "git",
@@ -23,5 +27,8 @@
   "homepage": "https://github.com/DavidIRL/js_webCrawler#readme",
   "devDependencies": {
     "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "jsdom": "^24.1.0"
   }
 }
