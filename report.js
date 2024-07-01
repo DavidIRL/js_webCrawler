@@ -27,7 +27,4 @@ function sortPages(pages) {
 }
 
 
-module.export = {
-        sortPages,
-        printReport,
-}
+export {sortPages, printReport}

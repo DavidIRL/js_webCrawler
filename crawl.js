@@ -97,9 +97,5 @@ async function crawlPage(base, currentURL = base, pages = {}) {
   return pages
 }
 
-module.export = {
-    normalizeURL,
-    getURLsFromHTML,
-    crawlPage,
-}
+export {normalizeURL, getURLsFromHTML}
 
