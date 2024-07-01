@@ -1,0 +1,27 @@
+{
+  "name": "js_webcrawler",
+  "version": "1.0.0",
+  "description": "JavaScript webcrawler for spidering through and outputting a report showing the structure of a websites linking",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidIRL/js_webCrawler.git"
+  },
+  "keywords": [
+    "[\"node.js\"",
+    "\"webcrawler\"",
+    "\"SEO\"]"
+  ],
+  "author": "David White",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidIRL/js_webCrawler/issues"
+  },
+  "homepage": "https://github.com/DavidIRL/js_webCrawler#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
